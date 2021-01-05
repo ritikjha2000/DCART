@@ -1,0 +1,242 @@
+*{
+	margin:;
+	padding: 0;
+}
+html{
+	border: solid black 2px;
+}
+.navbar{
+	background-color: black;
+}
+
+.nav_container{
+	background-color: black;
+}
+
+.home{
+	background-color: black;
+}
+.brand{
+	background-color: black;
+	padding:0 10% 0 10%;
+}
+
+
+
+section{
+	border: 2px;
+}
+
+												/* Brand styling */
+
+.home{
+	font-family:Allan;
+  font-size: 3em;
+	position: absolute;
+	top:2%;
+	left:2%;
+	float: left;
+	color: white;
+	width: 30%;
+}
+
+
+
+.brand{
+		margin-top:; 
+		position: absolute;
+		font-family: Allan;
+		text-decoration: none;
+		color:yellow;
+		font-style: bold;
+
+	}
+
+
+												
+
+													/* Navigation bar styling */
+
+
+
+
+.navbar-container{
+	z-index: 1;
+	top: 2%;
+  float: right;
+	margin-left: 50%;
+  position: absolute;
+  width: 50%;
+}
+
+
+
+
+.navbar
+    {
+         width: 100%;
+         overflow: auto;
+         float: right;
+        margin-right:5%;
+          
+    }
+
+.fa{
+	background-color: transparent;
+	border: 0;
+	color: yellow;
+}
+
+#navbaar
+  {   
+  	font-family: Sofia;
+      font-size: 2em;
+      float: left;
+      padding-left:3%;
+      padding-right: 3%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-decoration: none;
+      background-color: transparent;
+      color:white;
+  }
+  .navbaar1
+  {   
+    font-family: Sofia;
+      float:left;
+      margin-left: 10%;
+      padding-left:2%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-decoration: none;
+
+      color:white;
+  }
+
+
+													/* slideshow container */
+
+
+.slideshow-container{
+	z-index: 0;
+	position: all; 
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+.mySlides
+{
+	margin-top: 10%;
+}
+
+
+
+                            
+.cont-img{
+	height: 80vh;
+	width: 70%;
+	margin-left:15% ;
+}
+
+
+			                            /* Position the "next button" to the right */
+
+
+
+
+.next 
+    {
+    font-size: 2em;
+    right:17%;
+    margin-top: -25%; ;
+    border-radius: 16px 0 0 16px;
+    padding: 2%;
+    color: black;
+    float: right;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+    position: absolute;
+
+    }
+
+
+.prev 
+    {position: relative;
+    	font-size: 2em;
+      right:90%;
+ 	    margin-top: -26.5%;
+      border-radius: 0 16px 16px 0;
+      padding: 2%;
+      color: black;
+      float: right;
+      transition: background-color 0.6s ease;
+      cursor: pointer;
+    }
+
+
+
+										/* HOVERING text */
+
+
+
+
+
+
+.brand:hover{
+	color: yellow;
+	font-size: 1.1em;
+}
+
+
+
+#br-image:hover{
+	transform: rotate(60deg);
+}
+
+ #navbaar1:hover, #navbaar:hover{
+
+  	color: #4af0da;
+  	font-size: 2.2em;
+  }
+.next:hover, .prev:hover{
+  opacity: 0.6;
+  background-color: red;
+}
+
+.container a:hover
+    {
+      background-color: #18c947;
+    }
+
+
+.details{
+		border: solid black 2px;
+
+}
+
+
+h2{
+	text-align: center;
+	font-size: 4em;
+	padding: 0 5% 5% 5%;
+}
+p{	margin-left: 1%;
+	font-size: 2em;
+	margin: 3%;
+}	
+
+.buy{
+	width: 70%;
+	height: auto;
+	background-color: black;
+	color: white;
+	font-size: 3em;
+	padding: 2%;
+	margin-left:15%; 
+}
+
+.buy:hover{
+	color: yellow;
+	font-size: 3.5em;
+}

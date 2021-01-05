@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FeedIt</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 600, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+
+  });
+});
+</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=McLaren' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="brands.css ">
+</head>
+<body>
+                                        <!--wallpaper-->
+
+
+		<img src="wallpaper.jpg" id="front-wallpaper" alt="Dogy is eating don't disturb him">
+    <img src="wallpaper.jpg" id="front-wallpaper" alt="Dogy is eating don't disturb him">
+											
+														<!-- navigation bar -->
+
+
+<div class="nav_container">
+	<nav class="home"><a href="index.html" class="brand" ><b>FEED IT</b> </a></nav>
+		<div class="navbar-container">															
+			<nav class="navbar">
+				<a href="brands.html" id="navbaar">Brands.</a>
+				<a href="offers.html" id="navbaar">Offers.</a>
+				<a href="contact.html" id="navbaar">Contact.</a>
+
+			</nav>
+		</div>
+</div>
+
+  <div class="shop-brands centeredd" style="font-family: Allan"><h1>SHOP BY BRANDS</h1> </div>
+<div class="grid-container centered">
+    <div class="grid-item">
+        <a class= "brand-ref" href="royal-cannin.html">
+          <img src="brands/we have/royal-canin.png" id="brand_style">
+        </a>
+    </div>
+    <div class="grid-item">
+      <a class= "brand-ref" href="hikari.html">
+        <img src="brands/we have/hikari.jpg" id="brand_style">
+      </a>
+    </div>
+    <div class="grid-item">
+      <a class= "brand-ref" href="hills.html">
+        <img src="brands/we have/hills.jpg" id="brand_style">
+      </a>
+    </div>
+    <div class="grid-item">
+      <a class= "brand-ref" href="farmina.html">
+        <img src="brands/we have/farmina.jpg" id="brand_style">
+      </a>
+    </div>
+    <div class="grid-item">
+      <a class= "brand-ref" href="drools.html">
+        <img src="brands/we have/drools.jpg" id="brand_style">
+      </a>
+    </div>
+    <div class="grid-item">
+      <a class= "brand-ref" href="chappy.html">
+        <img src="brands/we have/chappi.jpg" id="brand_style">
+      </a>
+    </div>
+    <div class="grid-item">
+      <a class= "brand-ref" href="sheba.html">
+        <img src="brands/we have/sheba.jpg" id="brand_style">
+      </a>
+    </div>
+    <div class="grid-item">
+      <a class= "brand-ref" href="spotty.html">
+        <img src="brands/we have/spotty.jpg" id="brand_style">
+      </a>
+    </div>
+    <div class="grid-item">
+      <a class= "brand-ref" href="pedigree.html">
+        <img src="brands/we have/pedigree.jpg" id="brand_style">
+      </a>
+    </div>
+    <div class="grid-item">
+      <a class= "brand-ref" href="vitapol.html">
+        <img src="brands/we have/vitapol.jpg" id="brand_style">
+      </a>
+    </div>
+    
+</div>
+
+  <div class="shop-breeds centeredd2" style="font-family: Allan"><h1>SHOP BY BREED</h1> </div>
+<div class="grid-container2 centered2">
+          <table>
+          <tr><td>
+    <div class="grid-item2">
+        <a class= "brand-ref" href="dog-adult.html">
+          <img src="brands/we have/breeds/adult-dog.jpg" id="breed_style">
+        </a>
+    </div>
+          </td></tr>
+            <tr>
+            <td id="breed-name" >Dogs</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+          <td>
+    <div class="grid-item2">
+      <a class= "brand-ref" href="dog-junior.html">
+        <img src="brands/we have/breeds/dog-junior.jpg" id="breed_style">
+      </a>
+    </div>
+      </td></tr>
+      <tr>
+        <td id="breed-name"> Puppy</td>
+      </tr>
+    </table>
+    <table><tr>
+      <td>
+    <div class="grid-item2">
+      <a class= "brand-ref" href="cat-adult.html">
+        <img src="brands/we have/breeds/adult-cat.jpg" id="breed_style">
+      </a>
+    </div>
+  </td></tr><tr>
+     <td id="breed-name">Cats</td>
+  </tr>
+</table>
+<table>
+  <tr>
+  <td>
+    <div class="grid-item2">
+      <a class= "brand-ref" href="cat-junior.html">
+        <img src="brands/we have/breeds/baby-cat.jpg" id="breed_style">
+      </a>
+    </div>
+    </td>
+  </tr>
+  <tr>
+        <td id="breed-name">Baby Cats</td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+    <td>
+    <div class="grid-item2">
+      <a class= "brand-ref" href="fish.html">
+        <img src="brands/we have/breeds/fish.jpg" id="breed_style">
+      </a>
+    </div>
+    </td>
+  </tr>
+  <tr>
+       <td id="breed-name">Fish</td>
+  </tr>
+</table>
+</div>
+
+</body>
+</html>

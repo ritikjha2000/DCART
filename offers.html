@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FeedIt</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 600, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+
+  });
+});
+</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=McLaren' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+	<title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<style type="text/css">
+
+      .ways{
+        width: auto;
+        max-width: 80%;
+        margin: auto; 
+        margin-left: 20%;
+      }
+      #icons{
+        height: 2em;
+        width: 2em;
+        text-align: center;
+        margin-left: 10%;
+
+
+
+      }
+
+p{
+  text-align: center;
+}
+
+      
+      table{
+        position: absolute;
+        top: 60%;
+        width: auto;
+        max-width: 90%;
+        left:50%;
+        transform: translate(-50%,-50%);
+
+      }
+      tr{
+        margin: 2%;
+      }
+      tr:hover{
+        opacity: 0.8;
+      }
+      td{
+        color:black;
+        background-color:white;
+        font-size: 1.5em;
+        padding: 1.5%;
+      }
+      a:hover{
+        opacity: 0.8;
+      }
+
+      @media screen and (max-width:600px)
+      {
+
+      .ways{
+        width: auto;
+        max-width: 80%;
+        margin: auto; 
+        margin-left: 20%;
+      }
+      #icons{
+        height: 2em;
+        width: 2em;
+        text-align: center;
+        margin-left: 10%;
+
+
+
+      }
+
+p{
+  text-align: center;
+}
+
+      
+      table{
+        position: absolute;
+        top: 80%;
+        width: auto;
+        max-width: 90%;
+        left:50%;
+        transform: translate(-50%,-50%);
+
+      }
+      tr{
+        margin: 2%;
+      }
+      tr:hover{
+        opacity: 0.8;
+      }
+      td{
+        color:black;
+        background-color:white;
+        font-size: 1.5em;
+        padding: 1.5%;
+        margin-top: 3%;
+      }
+      a:hover{
+        opacity: 0.8;
+      }
+      .home{
+        font-size: 2em;
+      }
+      #navbaar
+  {   
+    font-family: Sofia;
+      font-size: 1.5em;
+      float: left;
+      padding-left:3%;
+      padding-right: 3%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-decoration: none;
+      background-color: transparent;
+      color:white;
+  }
+
+      }
+
+</style>
+<body>
+                                        <!--wallpaper-->
+
+
+	<img src="wallpaper.jpg" id="front-wallpaper" alt="Dogy is eating don't disturb him">
+											
+														<!-- navigation bar -->
+
+
+<div class="nav_container">
+	<nav class="home"><a href="index.html" class="brand" ><b>FEED IT</b> </a></nav>
+		<div class="navbar-container">															
+			<nav class="navbar">
+				<a href="brands.html" id="navbaar">Brands.</a>
+				<a href="offers.html" id="navbaar">Offers.</a>
+				<a href="contact.html" id="navbaar">Contact.</a>
+			</nav>
+		</div>
+</div>
+
+<table>
+  <tr>
+    <td>
+     <p> We support digital India.We don't just say it , we mean it.Pay via </p>
+     <div class="ways">
+         <a> <img src="payment-icons/gpay.png" id="icons"></a>
+          <a><img src="payment-icons/paytm.png" id="icons"></a>
+          <a><img src="payment-icons/phonepe.png" id="icons"></a>
+          <a><img src="payment-icons/upi.png" id="icons"></a>
+
+      </div>
+      <p>and get 3% instant discount upto ₹ 100.<a href="terms & conditions.html" style="text-decoration: none">T&C apply</a> </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>
+        Do shopping of ₹ 10000 and more, and get ₹ 500 shopping voucher from <i id="brands">feed it</i>.  
+      </p>
+
+    </td>
+    </tr>
+    <tr>
+    <td>
+      <p>
+        Get free home delivery on shopping of ₹ 500 and more.
+      </p>
+    </td>
+  </tr>
+
+    <tr>
+    <td>
+      <p>
+        Get get the premium membership of <i>Feed it</i> just @ ₹.999 and get all your deliveries free at your door step<br>
+        <b style="font-size: 2em;text-align: center">+</b><br>
+        Get extra 1% discount on every product 
+      </p>
+    </td>
+  </tr>
+</table>

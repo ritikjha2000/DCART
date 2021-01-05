@@ -1,0 +1,595 @@
+  * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+html{
+	background-image: radial-gradient(yellow,white);
+}
+											/* Positioning of items */
+
+
+
+
+
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+  top: 1.2em;
+  left: 1em;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  margin-top: 100px;
+  right:;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+																
+.centeredd {
+  position: absolute;
+  text-decoration: underline;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered2 {
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+                                
+.centeredd2 {
+  position: absolute;
+  text-decoration: underline;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+														/*Background Wallpaper*/
+												
+
+
+
+
+#front-wallpaper{
+	z-index: -1;
+	margin: 0;
+	max-height: 100vh;
+	width: 100%;
+	position: all;
+	opacity: 0.8;
+}
+
+												
+
+
+												/* Brand styling */
+
+.home{
+	font-family:Allan;
+  font-size: 3em;
+	position: absolute;
+	top:2%;
+	left:2%;
+	float: left;
+	color: white;
+	width: 30%;
+}
+
+
+
+.brand{
+		margin-top:; 
+		position: absolute;
+		font-family: Allan;
+		text-decoration: none;
+		color:yellow;
+		font-style: bold;
+
+	}
+
+
+												
+
+													/* Navigation bar styling */
+
+
+
+
+.navbar-container{
+	z-index: 1;
+	top: 2%;
+  float: right;
+	margin-left: 40%;
+  position: absolute;
+  width: 60%;
+}
+
+
+
+
+.navbar
+    {
+         width: 100%;
+         overflow: auto;
+         float: right;
+        margin-left:;
+          
+    }
+
+
+
+#navbaar
+  {   
+  	font-family: Sofia;
+      font-size: 1.8em;
+      float: left;
+      margin-left: 1em;
+      margin-right: 1em;
+      padding-left:3%;
+      padding-right: 3%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-decoration: none;
+      background-color: transparent;
+      color:white;
+  }
+  .navbaar1
+  {   
+    font-family: Sofia;
+      float:right;
+      margin-right: 15%;
+      padding-left:2%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-decoration: none;
+
+      color:white;
+  }
+
+.shop-brands{
+  color: white;
+  font-size: 1.3em;
+}
+
+                                    /*rows and column*/
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: transparent;
+}
+.grid-item {
+  background-color: transparent;
+  margin:0.2%;
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+#brand_style{
+  width: 10em;
+  height: 10em;
+
+}
+
+#brand_style:hover{
+  width: 11em;
+  height: 11em;
+
+}
+
+
+
+.shop-breeds{
+  color: white;
+  font-size: 1.3em;
+}
+
+                                    /*rows and column*/
+
+
+
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: transparent;
+}
+.grid-item2 {
+  background-color: transparent;
+  margin:0.2%;
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  text-align: center;
+}
+
+#breed_style{
+  width: 12em;
+  height: 15em;
+
+}
+
+#breed_style:hover{
+  width: 13em;
+  height: 16em;
+
+}
+#breed-name{
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  font-family: Aclonica;
+}
+
+.fa {
+  text-decoration: none;
+  background-color: transparent;
+  border: 0;
+  color: #50e632;
+  }
+
+                                        /*HOVERING*/
+
+.brand:hover{
+  color: yellow;
+  font-size: 1.1em;
+}
+
+
+
+#br-image:hover{
+  transform: rotate(60deg);
+}
+
+ #navbaar1:hover, #navbaar:hover{
+    color: #4af0da;
+    font-size: 2.2em;
+  }
+
+  @media screen and (max-width: 400px){
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+html{
+  background-image: radial-gradient(yellow,white);
+}
+                      /* Positioning of items */
+
+
+
+
+
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+  top: 1.2em;
+  left: 1em;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  margin-top: 100px;
+  right:;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+                                
+.centeredd {
+  position: absolute;
+  text-decoration: underline;
+  top: 23%;
+  width: 80%;
+  text-align: center;
+}
+
+.centered2 {
+  position: absolute;
+  top: 158%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+                                
+.centeredd2 {
+  position: absolute;
+  text-decoration: underline;
+  top: 108%;
+  width: 80%;
+  text-align: center;
+}
+
+
+
+
+                            /*Background Wallpaper*/
+                        
+
+
+
+
+#front-wallpaper{
+  z-index: -1;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  position: all;
+  opacity: 0.8;
+}
+
+
+
+                        
+
+
+                        /* Brand styling */
+
+.home{
+  font-family:Allan;
+  font-size: 2.5em;
+  background-color: blue;
+  position: absolute;
+  top:1%;
+  left:1%;
+  float: left;
+  color: white;
+  width: 100%;
+}
+
+
+
+.brand{
+    margin-left:2%; 
+    position: absolute;
+    font-family: Allan;
+    text-decoration: none;
+    color:yellow;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: blue;
+    font-style: bold;
+
+  }
+
+
+                        
+
+                          /* Navigation bar styling */
+
+
+.nav_container{
+  background-color: #1adbbe;
+}
+
+.navbar-container{
+  z-index: 1;
+  float: right;
+  position: absolute;
+  width: 100%;
+}
+
+
+
+
+.navbar
+    {
+         width: 100%;
+         margin-right:40%;
+         overflow: auto;
+        margin-left:;
+          
+    }
+
+
+
+#navbaar
+  {   
+    position: relative;
+    margin-top: 13%;
+    width: 25%;
+    text-align: center;
+    font-family: Sofia;
+      font-size: 1.7em;
+      float: left;
+      padding-top: 2%;
+      padding-bottom: 1%;
+      margin-left:2% ;
+      margin-right: 2%;
+      text-decoration: none;
+      background-color: transparent;
+      color:white;
+  }
+  .navbaar1
+  {   
+    font-family: Sofia;
+    font-size: 0.8em;
+      float:right;
+      margin-left: 75%;
+      position: absolute;
+      padding-left:2%;
+      padding-right:%;
+      padding-top: ;
+      padding-bottom:;
+      text-decoration: none;
+
+      color:black;
+  }
+
+
+.shop-brands{
+  color: white;
+  font-size: 1em;
+}
+
+                                    /*rows and column*/
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+}
+.grid-item {
+  background-color: transparent;
+  margin:2%;
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+#brand_style{
+  width: 6em;
+  height: 6em;
+
+}
+
+#brand_style:hover{
+  width: 7.5em;
+  height: 7.5em;
+
+}
+
+
+
+.shop-breeds{
+  color: white;
+  font-size: 1em;
+}
+
+                                    /*rows and column*/
+
+
+
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: transparent;
+}
+.grid-item2 {
+  background-color: transparent;
+  margin:0.2%;
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  text-align: center;
+}
+
+#breed_style{
+  width: 7em;
+  height: 9em;
+
+}
+
+#breed_style:hover{
+  width: 7.5em;
+  height: 10em;
+
+}
+#breed-name{
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  font-family: Aclonica;
+}
+
+.fa {
+  text-decoration: none;
+  background-color: transparent;
+  border: 0;
+  color: #50e632;
+  }
+
+                                        /*HOVERING*/
+
+.brand:hover{
+  color: yellow;
+  font-size: 1.1em;
+}
+
+
+
+#br-image:hover{
+  transform: rotate(60deg);
+}
+
+ #navbaar1:hover, #navbaar:hover{
+    color: #4af0da;
+    font-size: 2.2em;
+  }
+  }

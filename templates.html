@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FeedIt</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 600, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+
+  });
+});
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=McLaren' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+	<title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="templates.css ">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+														<!-- navigation bar -->
+
+
+<div class="nav_container">
+	<nav class="home"><a href="index.html" class="brand" ><b>FEED IT</b> </a></nav>
+		<div class="navbar-container">															
+			<nav class="navbar">
+				<a href="brands.html" id="navbaar">Brands.</a>
+				<a href="offer.html" id="navbaar">Offers.</a>
+				<a href="contact.html" id="navbaar">Contact.</a>
+
+			</nav>
+		</div>
+</div>
+
+                                         <!-- Slideshow container -->
+
+<section>
+
+<div class="slideshow-container">
+  
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides">
+  	<div class="fade">
+    <img src="dogp_imgs/1.jpg" class="cont-img"></div>
+    <div class="text">
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+</div>
+
+  <div class="mySlides">
+  	<div class="fade">
+   <img src="dogp_imgs/2.jpg"  class="cont-img"></div>
+    <div class="text">
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+</div>
+  <div class="mySlides">
+  	<div class="fade">
+   <img src="dogp_imgs/3.jpg" class="cont-img"></div>
+    <div class="text">
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+</div>
+  <div class="mySlides">
+  	<div class="fade">
+   <img src="dogp_imgs/4.jpg" class="cont-img"></div>
+    <div class="text">
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+</div>
+  <div class="mySlides">
+  	<div class="fade">
+   <img src="dogp_imgs/5.jpg"  class="cont-img"></div>
+    <div class="text">
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+</div>
+                                    
+</div>
+<h2 style="font-size: 3em">MRP  <del>₹.3000</del> ₹1999</h2>
+</section>
+
+<div class="details">
+<h2>
+  product details
+</h2>
+<p>
+    Ryal-Cannin Dog Instictive
+</p>
+<p>
+  Quantity Available: 
+ <b style="padding: 2%;border: solid black 1px; text-align: center">3kg</b>
+ <a href="details2.html"  style="text-decoration: none;"><b style="padding: 2%;border: solid black 1px; text-align: center">5kg</b></a>
+  <a href="details3.html"  style="text-decoration: none;"><b style="padding: 2%;border: solid black 1px; text-align: center">7kg</b></a>
+ <a href="details4.html"  style="text-decoration: none;"><b style="padding: 2%;border: solid black 1px; text-align: center">12kg</b></a>
+</p>
+<p>
+  Offers:  Pay via phonepe and get 5% instant discount upto₹500.
+</p>
+<button class="buy">BUY NOW</button><br><br>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+function validateForm() {
+  var x = document.forms["joinus"]["E-mail"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+
+</body>
+</html>
